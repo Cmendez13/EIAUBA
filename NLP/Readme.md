@@ -34,6 +34,18 @@ Se analizaron palabras seleccionadas y se identificaron las más cercanas en el 
 
 **Visualización de Embeddings:** Se visualizaron los embeddings en 2D.
 
+<h3> Desafio 3 </h3>
+
+En este desafío, se utilizó una muestra del archivo ** .txt** para entrenar un modelo LSTM para la generación de texto:
+
+**Prepocesamiento de datos:** 
+Se cargaron los datos del archivo **txt**, segmentando el texto en palabras. Se utilizó un Tokenizer para convertir palabras en índices numéricos, se dividió el conjunto en entrenamiento y validación.
+
+**Modelo LSTM:** 
+Se definió y entrenó un modelo LSTM secuencial en Keras:
+
+![Desafio3](images/Modelo_desafio_3.png)
+
 
 
 
