@@ -7,36 +7,36 @@ Este repositorio fue pensado para contener las experiencias de aprendizajes dura
 
 <h2> Descripción del curso </h2>
 
-## Clase 1: Introducción a NLP y Vectorización de Documentos
+## Introducción a NLP y Vectorización de Documentos
 - Fundamentos del Procesamiento del Lenguaje Natural.
 - Técnicas de vectorización: Bag of Words (BoW) y TF-IDF.
 
-## Clase 2: Pre-procesamiento de Texto y Word Embeddings
+## Pre-procesamiento de Texto y Word Embeddings
 - Limpieza y normalización de texto.
 - Introducción a word embeddings: Word2Vec, GloVe y FastText.
 
-## Clase 3: Modelos No-BOW I: Convolucionales y Recurrentes
+## Modelos No-BOW I: Convolucionales y Recurrentes
 - Modelos alternativos a BoW para relaciones en secuencias.
 - Redes neuronales convolucionales (CNNs) y recurrentes (RNNs), LSTMs y GRUs.
 - Generación de texto secuencial.
 
-## Clase 4: Modelos No-BOW II: Mecanismo de Atención
+## Modelos No-BOW II: Mecanismo de Atención
 - Introducción al mecanismo de atención en modelos secuenciales.
 - Aplicaciones de atención en PLN.
 
-## Clase 5: Modelos Seq2seq
+## Modelos Seq2seq
 - Arquitectura encoder-decoder para tareas de secuencias a secuencias.
 - Aplicaciones: traducción automática, chatbots y resumen de texto.
 
-## Clase 6: Transformers
+## Transformers
 - Arquitectura de Transformers y modelo de atención completa.
 - Modelos como BERT y GPT y su impacto en PLN.
 
-## Clase 7: Grandes Modelos de Lenguaje y RAG
+## Grandes Modelos de Lenguaje y RAG
 - Introducción a grandes modelos de lenguaje (LLMs).
 - Modelos de recuperación-augmented generation (RAG) para mejorar respuestas en diálogos.
 
-## Clase 8: Otros Temas
+## Miscelaneos
 - Generación automática de descripciones de imágenes (Image Captioning).
 - Reconocimiento automático del habla (ASR).
 - Síntesis de texto a voz (TTS).
