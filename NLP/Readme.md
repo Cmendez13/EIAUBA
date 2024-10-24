@@ -44,7 +44,9 @@ Se cargaron los datos del archivo **txt**, segmentando el texto en palabras. Se 
 **Modelo LSTM:** 
 Se definió y entrenó un modelo LSTM secuencial en Keras:
 
-![Desafio3](images/Modelo_desafio_3.png)
+![alt-text](https://github.com/Cmendez13/EIAUBA/blob/main/NLP/images/Modelo_deasafio_3.png)
+
+<h3> Desafio 4 </h3>
 
 
 
