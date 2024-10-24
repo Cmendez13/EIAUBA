@@ -34,9 +34,11 @@ Se analizaron palabras seleccionadas y se identificaron las más cercanas en el 
 
 **Visualización de Embeddings:** Se visualizaron los embeddings en 2D.
 
+![desafio2](https://github.com/Cmendez13/EIAUBA/blob/main/NLP/images/desafio_2_similaritud.png))
+
 <h3> Desafio 3 </h3>
 
-En este desafío, se utilizó una muestra del archivo ** .txt** para entrenar un modelo LSTM para la generación de texto:
+En este desafío, se utilizó una muestra del archivo **74376.txt** para entrenar un modelo LSTM para la generación de texto:
 
 **Prepocesamiento de datos:** 
 Se cargaron los datos del archivo **txt**, segmentando el texto en palabras. Se utilizó un Tokenizer para convertir palabras en índices numéricos, se dividió el conjunto en entrenamiento y validación.
@@ -44,9 +46,26 @@ Se cargaron los datos del archivo **txt**, segmentando el texto en palabras. Se 
 **Modelo LSTM:** 
 Se definió y entrenó un modelo LSTM secuencial en Keras:
 
-![alt-text](https://github.com/Cmendez13/EIAUBA/blob/main/NLP/images/Modelo_deasafio_3.png)
+![Modelo Desafio 3](https://github.com/Cmendez13/EIAUBA/blob/main/NLP/images/Modelo_deasafio_3.png)
 
 <h3> Desafio 4 </h3>
+
+
+<h3> Desafio 5 </h3>
+
+Resumen del Desafio de Clasificación de Sentimientos con BERT
+
+Se trabajó en la clasificación de reseñas de Google Apps para predecir el sentimiento utilizando un modelo basado en BERT:
+
+**Tokenización y División de Datos:** 
+
+Después de limpiar y balancear el conjunto de datos, se tokenizaron las críticas con el tokenizador de BERT y su división en entrenamiento y validación.
+
+Se definión un módelo personalizado que permitiera modificar max_length y se le agrego una capa densa adicional
+
+Se probaron: 
+**max_length = 140**  y **max_length = 100**
+
 
 
 
