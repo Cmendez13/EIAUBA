@@ -7,7 +7,43 @@ Este repositorio fue pensado para contener las experiencias de aprendizajes dura
 
 <h2> Descripción del curso </h2>
 
+## Clase 1: Introducción a NLP y Vectorización de Documentos
+- Fundamentos del Procesamiento del Lenguaje Natural.
+- Técnicas de vectorización: Bag of Words (BoW) y TF-IDF.
+
+## Clase 2: Pre-procesamiento de Texto y Word Embeddings
+- Limpieza y normalización de texto.
+- Introducción a word embeddings: Word2Vec, GloVe y FastText.
+
+## Clase 3: Modelos No-BOW I: Convolucionales y Recurrentes
+- Modelos alternativos a BoW para relaciones en secuencias.
+- Redes neuronales convolucionales (CNNs) y recurrentes (RNNs), LSTMs y GRUs.
+- Generación de texto secuencial.
+
+## Clase 4: Modelos No-BOW II: Mecanismo de Atención
+- Introducción al mecanismo de atención en modelos secuenciales.
+- Aplicaciones de atención en PLN.
+
+## Clase 5: Modelos Seq2seq
+- Arquitectura encoder-decoder para tareas de secuencias a secuencias.
+- Aplicaciones: traducción automática, chatbots y resumen de texto.
+
+## Clase 6: Transformers
+- Arquitectura de Transformers y modelo de atención completa.
+- Modelos como BERT y GPT y su impacto en PLN.
+
+## Clase 7: Grandes Modelos de Lenguaje y RAG
+- Introducción a grandes modelos de lenguaje (LLMs).
+- Modelos de recuperación-augmented generation (RAG) para mejorar respuestas en diálogos.
+
+## Clase 8: Otros Temas
+- Generación automática de descripciones de imágenes (Image Captioning).
+- Reconocimiento automático del habla (ASR).
+- Síntesis de texto a voz (TTS).
+
+
 <h2> Desafios </h2>
+
 <h3> Desafio 1 </h3>
 
 Para este desafío, se llevó a cabo un análisis de similaridad de documentos con el conjunto de datos 20 Newsgroups:
@@ -64,8 +100,14 @@ Después de limpiar y balancear el conjunto de datos, se tokenizaron las crític
 Se definión un módelo personalizado que permitiera modificar max_length y se le agrego una capa densa adicional
 
 Se probaron: 
-**max_length = 140**  y **max_length = 100**
 
+![max_legth_100](https://github.com/Cmendez13/EIAUBA/blob/main/NLP/images/model_5_100.png)
+
+**max_length = 100**
+
+![max_legth_140](https://github.com/Cmendez13/EIAUBA/blob/main/NLP/images/model_5_140.png)
+
+**max_length = 140**
 
 
 
