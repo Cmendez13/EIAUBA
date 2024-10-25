@@ -88,9 +88,13 @@ Se definió y entrenó un modelo LSTM secuencial en Keras:
 
 Para este desafío, se entrenó un bot de preguntas y respuestas (QA) utilizando un conjunto de datos de conversaciones y una arquitectura encoder-decoder con LSTM y embeddings preentrenados de FastText. 
 Para ello:
-**Carga y Preparación de Datos:** Se cargaron diálogos del archivo data_volunteers.json, limpiando y tokenizando las oraciones, y añadiendo los tokens <sos> y <eos>. 
+
+**Carga y Preparación de Datos:** Se cargaron diálogos del archivo data_volunteers.json, limpiando y tokenizando las oraciones, y añadiendo los tokens <sos> y <eos>.
+
 **Tokenización y Padding:** Se utilizó el Tokenizer de Keras para crear diccionarios (word2idx_inputs y word2idx_outputs) y se aplicó padding para unificar las longitudes
+
 **Embeddings:** Se emplearon embeddings preentrenados de FastText para inicializar la capa de embeddings del modelo.
+
 **Entrenamiento del Modelo LSTM:** Se entrenaron dos modelos, siendo el primero una arquitectura simple encoder-decoder con LSTM de 128 unidades en ambas partes, conectados a una capa de embeddings 
 
 
