@@ -93,11 +93,11 @@ Para ello:
 
 **Tokenización y Padding:** Se utilizó el Tokenizer de Keras para crear diccionarios (word2idx_inputs y word2idx_outputs) y se aplicó padding para unificar las longitudes
 
-**Embeddings:** Se emplearon embeddings preentrenados de FastText para inicializar la capa de embeddings del modelo.
+**Embeddings:** Se emplearon embeddings preentrenados de FastText(*) para inicializar la capa de embeddings del modelo.
 
 **Entrenamiento del Modelo LSTM:** Se entrenaron dos modelos, siendo el primero una arquitectura simple encoder-decoder con LSTM de 128 unidades en ambas partes, conectados a una capa de embeddings 
 
-
+(*) Los archivos de embeddings hubo que cargarlos directamente desde Kaggle para facilitar su uso.
 
 <h3> Desafio 5 </h3>
 
